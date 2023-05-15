@@ -1,8 +1,10 @@
 require "test_helper"
 
-class ListingsControllerTest < ActionDispatch::IntegrationTest
+class PagesControllerTest < ActionDispatch::IntegrationTest
+
   test "should get index" do
-    get listings_url
+    get root_url
     assert_response :success
   end
+
 end
